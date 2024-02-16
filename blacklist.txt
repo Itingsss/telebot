@@ -1,0 +1,13 @@
+cantdown
+google
+github
+microsoft
+youtube
+.edu
+1.1.1.1
+godaddy
+windows
+127.0.0.1
+tiktok
+.go.id
+check-host
